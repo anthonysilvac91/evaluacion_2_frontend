@@ -11,7 +11,7 @@ body {
     
   }
 
-  button{
+  .button{
     background:transparent;
     border: none;
     font-size: 26px;
@@ -21,7 +21,7 @@ body {
     font-weight: bold;
   }
 
-  button:hover{
+  .button:hover{
     font-weight: bold;
     color: #8c52ff;
   }

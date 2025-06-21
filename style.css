@@ -69,14 +69,14 @@ ul {
     list-style: none;
 }
 
-a{
+nav ul li a{
     text-decoration: none;
     color: #545454;
     font-weight: bold;
     
 }
 
-a:hover{
+nav ul li a:hover{
     cursor: pointer;
     font-weight: bold;
     color: #8c52ff;
@@ -188,4 +188,54 @@ a:hover{
     justify-content: space-between;
     margin: 50px 0;
 
+}
+
+/* Estilos Footer */
+
+footer{
+    background-color: #8c52ff;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+footer img{
+    width: 300px;
+}
+
+/* Estilos del Modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.modal-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
 }

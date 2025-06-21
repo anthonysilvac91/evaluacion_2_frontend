@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  button{
+    background:transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color:#545454;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  button:hover{
+    font-weight: bold;
+    color: #8c52ff;
+  }
+
+  .btn-custom{
+    background:#8c52ff ;
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+  }
+
+  .btn-custom:hover{
+    color: white;
+    
+  }
+
+
+  /*Estilos del Menu de Navegacion  */
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 100px;
+    
+  }
+
+header .logo{
+    width: 150px;
+
+}
+
+header .logo img{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #545454;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #8c52ff;
+}
+
+
+
+/* Estilos de la sección de categorías */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  
+}
+
+.hero-texto {
+  max-width: 50%;
+}
+
+.hero-texto h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+  color: #1f1f1f;
+}
+
+.hero-texto h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #8c52ff;
+}
+
+.hero-texto p {
+  font-size: 16px;
+  color: #545454;;
+  margin-bottom: 10px;
+}
+
+
+
+
+.hero-imagen img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Estilos de seccion categorias */
+
+.categorias{
+    padding: 10px 100px;
+}
+
+.categorias h2{
+    font-size: 30px;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.categoria-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.categoria-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoria-imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: #545454 solid 5px;
+    
+}
+
+.categoria-imagen .burger-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 70%
+}
+
+.categoria-imagen img{
+    width: 100%;
+}
+
+/* Estilos seccion blogcard */
+
+
+.blog-container{
+    padding: 0 100px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+
+}
